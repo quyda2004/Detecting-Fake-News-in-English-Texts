@@ -1,3 +1,6 @@
+###pipeline của 2 mô hình LLM
+[pipeline_bert](https://drive.google.com/drive/folders/19gVt4VBPBq2HasQxvw0wRPsYJ-IDUqMR?usp=drive_link)
+[pipeline_xlent](https://drive.google.com/drive/folders/13wgIZQpbukjTM9BkyU5N55DnbY6Vlm13?usp=drive_link)
 # Fake News Detection Dataset
 
 ##  Giới thiệu
@@ -5,8 +8,8 @@
 Bộ dữ liệu được xây dựng phục vụ cho bài toán **phát hiện tin giả (Fake News Detection)** hoặc **nhận diện thông tin sai lệch (Misinformation Detection)**.
 
 Dữ liệu được chia thành 2 tập:
-- `DataSet_Misinfo_FAKE`: Bao gồm các văn bản/tin tức được xác định là **giả mạo (FAKE)**.
-- `DataSet_Misinfo_TRUE`: Bao gồm các văn bản/tin tức được xác nhận là **sự thật (TRUE)**.
+- `DataSet_Misinfo_FAKE`: Bao gồm các văn bản/tin tức được xác định là **giả mạo (FAKE)**. [data_fake](https://drive.google.com/file/d/1RiZvNZgw9oJOSyjlhWX0j8O1W4dJIzgE/view?usp=drive_link)
+- `DataSet_Misinfo_TRUE`: Bao gồm các văn bản/tin tức được xác nhận là **sự thật (TRUE)**. [data_true](https://drive.google.com/file/d/1RiZvNZgw9oJOSyjlhWX0j8O1W4dJIzgE/view?usp=drive_link)
 
 ##  Cấu trúc dữ liệu
 
