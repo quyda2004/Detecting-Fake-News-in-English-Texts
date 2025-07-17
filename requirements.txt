@@ -1,0 +1,19 @@
+google-colab
+os-sys    # không bắt buộc, vì os là module chuẩn Python
+jsonlib-python3
+re
+pickle-mixin
+logging
+numpy
+pandas
+matplotlib
+wordcloud
+seaborn
+tqdm
+dataclasses    # nếu dùng Python <3.7
+nltk
+scikit-learn
+datasets
+transformers
+torch
+torchinfo
