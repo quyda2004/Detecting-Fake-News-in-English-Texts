@@ -1,4 +1,5 @@
 ###pipeline của 2 mô hình LLM
+
 Bert Model: [pipeline_bert](https://drive.google.com/drive/folders/19gVt4VBPBq2HasQxvw0wRPsYJ-IDUqMR?usp=drive_link)
 
 XLNet Model: [pipeline_xlent](https://drive.google.com/drive/folders/13wgIZQpbukjTM9BkyU5N55DnbY6Vlm13?usp=drive_link)
