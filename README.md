@@ -1,4 +1,4 @@
-###pipeline của 2 mô hình LLM
+### pipeline của 2 mô hình LLM
 
 Bert Model: [pipeline_bert](https://drive.google.com/drive/folders/19gVt4VBPBq2HasQxvw0wRPsYJ-IDUqMR?usp=drive_link)
 
