@@ -93,7 +93,7 @@ Tổng số mẫu tùy thuộc vào từng tập:
 <img width="1519" height="589" alt="image" src="https://github.com/user-attachments/assets/c268cac9-27a4-415b-833d-f9808dfe7225" />
 
 <img width="1519" height="295" alt="image" src="https://github.com/user-attachments/assets/ced898b3-aeaa-4f7b-824f-ff8ba06dbb69" />
-## Kết luận
+###  Kết luận
 Trong quá trình đánh giá các mô hình học máy truyền thống và mô hình học sâu trên tập dữ liệu phát hiện tin giả, kết quả cho thấy sự khác biệt rõ rệt về hiệu quả giữa hai nhóm mô hình.
 
 Ở nhóm mô hình truyền thống, Logistic Regression đạt kết quả cao nhất với độ chính xác 95.50%, cho thấy khả năng phân loại khá ổn định và phù hợp với bài toán. Mô hình SVM (SVC) cũng cho kết quả tương đối tốt với độ chính xác 94.15%. Trong khi đó, Random Forest đạt mức 92.79%, thể hiện tính ổn định hơn so với Decision Tree đơn lẻ. Ngược lại, Multinomial Naive Bayes và Decision Tree có độ chính xác thấp nhất, lần lượt là 88.40% và 89.67%, cho thấy chúng không thực sự phù hợp với đặc thù dữ liệu văn bản trong bài toán này.
