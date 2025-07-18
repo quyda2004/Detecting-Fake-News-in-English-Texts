@@ -46,8 +46,8 @@ Một số mô hình có thể sử dụng để huấn luyện:
 ##  Phân chia dữ liệu
 
 Tổng số mẫu tùy thuộc vào từng tập:
-- FAKE: xxx samples
-- TRUE: yyy samples
+- FAKE: 43642 samples
+- TRUE: 34975 samples
 ##  Chiến lược xử lý (2 hướng chính)
 
 ###  Hướng 1: Machine Learning truyền thống (TF-IDF / CountVectorizer)
@@ -89,4 +89,15 @@ Tổng số mẫu tùy thuộc vào từng tập:
   - Mô hình hiểu ngữ cảnh tốt hơn.
   - Áp dụng fine-tuning toàn mô hình hoặc chỉ huấn luyện classifier head.
   - Yêu cầu phần cứng mạnh hơn.
+## Kết quả thu được.
+<img width="1519" height="589" alt="image" src="https://github.com/user-attachments/assets/c268cac9-27a4-415b-833d-f9808dfe7225" />
 
+<img width="1519" height="295" alt="image" src="https://github.com/user-attachments/assets/ced898b3-aeaa-4f7b-824f-ff8ba06dbb69" />
+## Kết luận
+Trong quá trình đánh giá các mô hình học máy truyền thống và mô hình học sâu trên tập dữ liệu phát hiện tin giả, kết quả cho thấy sự khác biệt rõ rệt về hiệu quả giữa hai nhóm mô hình.
+
+Ở nhóm mô hình truyền thống, Logistic Regression đạt kết quả cao nhất với độ chính xác 95.50%, cho thấy khả năng phân loại khá ổn định và phù hợp với bài toán. Mô hình SVM (SVC) cũng cho kết quả tương đối tốt với độ chính xác 94.15%. Trong khi đó, Random Forest đạt mức 92.79%, thể hiện tính ổn định hơn so với Decision Tree đơn lẻ. Ngược lại, Multinomial Naive Bayes và Decision Tree có độ chính xác thấp nhất, lần lượt là 88.40% và 89.67%, cho thấy chúng không thực sự phù hợp với đặc thù dữ liệu văn bản trong bài toán này.
+
+Với nhóm mô hình học sâu, cả hai mô hình BERT-BASE-CASED và XLNET-BASE-CASED đều đạt độ chính xác rất cao, lên tới 99.33%. Điều này khẳng định ưu thế vượt trội của các mô hình Transformer trong việc xử lý và phân tích dữ liệu văn bản, nhờ khả năng hiểu ngữ cảnh sâu sắc và trích xuất đặc trưng ngôn ngữ hiệu quả.
+
+Nhìn chung, mô hình BERT và XLNet là hai phương án tối ưu và phù hợp nhất cho bài toán phát hiện tin giả, trong khi Logistic Regression có thể được lựa chọn khi cần một mô hình truyền thống đơn giản mà vẫn đảm bảo độ chính xác tương đối cao.
