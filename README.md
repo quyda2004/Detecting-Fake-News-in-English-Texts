@@ -38,10 +38,9 @@ Ví dụ:
 
 Một số mô hình có thể sử dụng để huấn luyện:
 - Mô hình truyền thống:
-  - TF-IDF + Logistic Regression / SVM / Random Forest.
+  - TF-IDF/CountVectorizer + Logistic Regression / SVM / Random Forest/Decision Tree/Native Bayes.
 - Mô hình học sâu:
-  - BERT, DistilBERT, XLNet, RoBERTa.
-  - RNN / CNN + Word2Vec / GloVe embeddings.
+  - BERT, XLNet.
 
 ##  Phân chia dữ liệu
 
@@ -64,9 +63,9 @@ Tổng số mẫu tùy thuộc vào từng tập:
 - **Thuật toán phân loại**:
   - Logistic Regression.
   - SVM.
+  - Decision Tree
   - Random Forest.
   - Naive Bayes.
-  - XGBoost.
 -sử dụng Gridsearch để tối ưu tham số của cho từng mô hình 
 - **Đặc điểm**:
   - Phân tích mức từ hoặc n-gram.
